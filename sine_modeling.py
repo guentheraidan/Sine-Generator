@@ -8,7 +8,8 @@ def plot_sine():
     # Creating x axis with range and y axis with Sine
     # Function for Plotting Sine Graph
     x = np.arange(0, 5*np.pi, 0.1)
-    y = np.sin(x)
+    frequency = 2
+    y = np.sin(frequency * x)
 
     # Plotting Sine Graph
     plt.plot(x, y, color='green')
